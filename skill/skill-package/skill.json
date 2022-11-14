@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "fr-FR": {
+          "summary": "Sample Short Description",
+          "examplePhrases": ["Alexa ouvre HelloWorld", "HelloWorld"],
+          "name": "HelloWorld",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sslCertificateType": "Trusted",
+          "uri": "https://api.mbenaissa.dev/alexa/hello"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
